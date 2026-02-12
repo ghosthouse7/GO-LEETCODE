@@ -51,6 +51,7 @@ Tech Stack
 🚀 How to Run
 To run the solution for a specific problem or package:
 # Clone the repository
+```
 git clone [https://github.com/ghosthouse7/GO-LEETCODE.git](https://github.com/ghosthouse7/GO-LEETCODE.git)
 
 # Navigate to the directory
