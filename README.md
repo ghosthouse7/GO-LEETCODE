@@ -32,6 +32,8 @@ The codebase is organized by algorithmic patterns to facilitate easy navigation 
  ┣ 📂 dynamic-prog    # Memoization & Tabulation
  ┗ 📜 README.md
 
+```
+
 | # | Problem Name | Pattern | Difficulty | Time Complexity | Space Complexity |
 |:-:|:---|:---|:---|:---|:---|
 | 1 | [Longest Substring Without Repeating Characters](./strings/longest_substring.go) | Sliding Window | 🟠 Medium | $O(N)$ | $O(1)$ |
@@ -40,7 +42,7 @@ The codebase is organized by algorithmic patterns to facilitate easy navigation 
 
 
 
-
+```
 Tech Stack
  * Language: Golang (1.26.0)
  * Testing: Native go test framework
