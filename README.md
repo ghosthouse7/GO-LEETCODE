@@ -33,10 +33,16 @@ The codebase is organized by algorithmic patterns to facilitate easy navigation 
  ┗ 📜 README.md
 
 | # | Problem Name | Pattern | Difficulty | Time Complexity | Space Complexity |
-|---|---|---|---|---|---|
-| 1 | Longest Substring Without Repeating Characters | Sliding Window | 🟠 Medium | O(N) | O(1) |
-| 2 | Two Sum | Hash Map | 🟢 Easy | O(N) | O(N) |
-| 3 | Merge k Sorted Lists | Heap / D&C | 🔴 Hard | O(N \log k) | O(k) |
+|:-:|:---|:---|:---|:---|:---|
+| 1 | [Longest Substring Without Repeating Characters](./strings/longest_substring.go) | Sliding Window | 🟠 Medium | $O(N)$ | $O(1)$ |
+| 2 | [Two Sum](./arrays/two_sum.go) | Hash Map | 🟢 Easy | $O(N)$ | $O(N)$ |
+| 3 | [Merge k Sorted Lists](./linked-list/merge_k_lists.go) | Heap / D&C | 🔴 Hard | $O(N \log k)$ | $O(k)$ |
+
+
+```
+
+
+
 Tech Stack
  * Language: Golang (1.26.0)
  * Testing: Native go test framework
