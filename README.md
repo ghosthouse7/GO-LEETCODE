@@ -1,3 +1,4 @@
+
 # 🚀 GO-LEETCODE
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/ghosthouse7/GO-LEETCODE?style=flat-square)
@@ -33,22 +34,22 @@ The codebase is organized by algorithmic patterns to facilitate easy navigation 
  ┣ 📂 concurrency     # Goroutines, WaitGroups, Channels
  ┣ 📂 dynamic-prog    # Memoization & Tabulation
  ┗ 📜 README.md
-| # | Problem Name | Pattern | Difficulty | Time Complexity | Space Complexity |
-|:-:|:------------|:-------:|:----------:|:---------------:|:----------------:|
-| 1 | [Longest Substring Without Repeating Characters](./strings/longest_substring.go) | Sliding Window | 🟡 Medium | $O(N)$ | $O(min(N, M))$ |
-| 2 | [Two Sum](./arrays/two_sum.go) | Hash Map | 🟢 Easy | $O(N)$ | $O(N)$ |
-| 3 | [Merge k Sorted Lists](./linked-list/merge_k_lists.go) | Heap / Divide & Conquer | 🔴 Hard | $O(N \log k)$ | $O(1)$ |
 
- Tech Stack
-​Language: Golang (1.26.0)
-​Testing: Native go test framework
-​Linting: golangci-lint
-​🧪 How to Run
-​To run the solution for a specific problem or package:
- How to Run
-​To run the solution for a specific problem or package:
+🧠 Problem Solved Log
+| # | Problem Name | Pattern | Difficulty | Time Complexity | Space Complexity |
+|---|---|---|---|---|---|
+| 1 | Longest Substring Without Repeating Characters | Sliding Window | 🟡 Medium | O(N) | O(min(N, M)) |
+| 2 | Two Sum | Hash Map | 🟢 Easy | O(N) | O(N) |
+| 3 | Merge k Sorted Lists | Heap / Divide & Conquer | 🔴 Hard | O(N \log k) | O(1) |
+(Table updated daily)
+🛠️ Tech Stack
+ * Language: Golang (1.26.0)
+ * Testing: Native go test framework
+ * Linting: golangci-lint
+🧪 How to Run
+To run the solution for a specific problem or package:
 # Clone the repository
-git clone [https://github.com/ghosthouse7/GO-LEETCODE.git](https://github.com/ghosthouse7/GO-LEETCODE.git)
+git clone https://github.com/ghosthouse7/GO-LEETCODE.git
 
 # Navigate to the directory
 cd GO-LEETCODE
@@ -56,10 +57,10 @@ cd GO-LEETCODE
 # Run tests for a specific package (e.g., strings)
 go test -v ./strings
 
-
 🤝 Contribution & Connect
-​I welcome discussions on code optimization and alternative approaches.
+I welcome discussions on code optimization and alternative approaches.
 If you find a bug or have a more optimized solution (O(1) space, anyone?), feel free to open a Pull Request.
-​Author: ghost_hunter
-​GitHub: ghosthouse7
-​Crafted with ❤️ and code by ghost_hunter
+ * Author: ghost_hunter
+ * GitHub: ghosthouse7
+Crafted with ❤️ and code by ghost_hunter
+
