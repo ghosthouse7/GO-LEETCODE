@@ -1,25 +1,22 @@
 
 # 🚀 GO-LEETCODE
 
-![Go Version](https://img.shields.io/github/go-mod/go-version/ghosthouse7/GO-LEETCODE?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)
-![Repo Size](https://img.shields.io/github/repo-size/ghosthouse7/GO-LEETCODE?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/ghosthouse7/GO-LEETCODE?style=flat-square)
+![Go Status](https://img.shields.io/badge/go-reporting-blue) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Repo Size](https://img.shields.io/github/repo-size/ghosthouse7/GO-LEETCODE) ![Last Commit](https://img.shields.io/github/last-commit/ghosthouse7/GO-LEETCODE)
 
 > "Talk is cheap. Show me the code." - Linus Torvalds
 
 ## 📖 About This Repository
+
 This repository serves as a centralized collection of my **LeetCode solutions** and **Data Structures & Algorithms (DSA)** implementations, written exclusively in **Golang**.
 
 The focus of this project is not just to solve problems, but to write **production-grade, idiomatic Go code**.
 
-### 🌟 Key Features
-- **Idiomatic Go:** Utilizes extensive use of Pointers, Interfaces, and Structs.
-- **Concurrency Patterns:** Solutions involving Goroutines, Channels, and Mutexes where applicable.
-- **Performance:** Detailed Time ($O$) and Space ($O$) complexity analysis for every solution.
-- **Unit Testing:** Comprehensive `_test.go` files for robust verification.
+## 🌟 Key Features
 
----
+* **Idiomatic Go:** Utilizes extensive use of Pointers, Interfaces, and Structs.
+* **Concurrency Patterns:** Solutions involving Goroutines, Channels, and Mutexes where applicable.
+* **Performance:** Detailed Time ($O$) and Space ($O$) complexity analysis for every solution.
+* **Unit Testing:** Comprehensive `_test.go` files for robust verification.
 
 ## 📂 Repository Structure
 
@@ -35,21 +32,19 @@ The codebase is organized by algorithmic patterns to facilitate easy navigation 
  ┣ 📂 dynamic-prog    # Memoization & Tabulation
  ┗ 📜 README.md
 
-🧠 Problem Solved Log
 | # | Problem Name | Pattern | Difficulty | Time Complexity | Space Complexity |
 |---|---|---|---|---|---|
-| 1 | Longest Substring Without Repeating Characters | Sliding Window | 🟡 Medium | O(N) | O(min(N, M)) |
+| 1 | Longest Substring Without Repeating Characters | Sliding Window | 🟠 Medium | O(N) | O(1) |
 | 2 | Two Sum | Hash Map | 🟢 Easy | O(N) | O(N) |
-| 3 | Merge k Sorted Lists | Heap / Divide & Conquer | 🔴 Hard | O(N \log k) | O(1) |
-(Table updated daily)
-🛠️ Tech Stack
+| 3 | Merge k Sorted Lists | Heap / D&C | 🔴 Hard | O(N \log k) | O(k) |
+Tech Stack
  * Language: Golang (1.26.0)
  * Testing: Native go test framework
  * Linting: golangci-lint
-🧪 How to Run
+🚀 How to Run
 To run the solution for a specific problem or package:
 # Clone the repository
-git clone https://github.com/ghosthouse7/GO-LEETCODE.git
+git clone [https://github.com/ghosthouse7/GO-LEETCODE.git](https://github.com/ghosthouse7/GO-LEETCODE.git)
 
 # Navigate to the directory
 cd GO-LEETCODE
@@ -60,7 +55,6 @@ go test -v ./strings
 🤝 Contribution & Connect
 I welcome discussions on code optimization and alternative approaches.
 If you find a bug or have a more optimized solution (O(1) space, anyone?), feel free to open a Pull Request.
- * Author: ghost_hunter
- * GitHub: ghosthouse7
+Author: ghost_hunter
+GitHub: ghosthouse7
 Crafted with ❤️ and code by ghost_hunter
-
