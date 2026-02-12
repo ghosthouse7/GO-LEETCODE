@@ -39,8 +39,6 @@ The codebase is organized by algorithmic patterns to facilitate easy navigation 
 | 3 | [Merge k Sorted Lists](./linked-list/merge_k_lists.go) | Heap / D&C | 🔴 Hard | $O(N \log k)$ | $O(k)$ |
 
 
-```
-
 
 
 Tech Stack
