@@ -18,7 +18,7 @@ The focus of this project is not just to solve problems, but to write **producti
 * **Performance:** Detailed Time ($O$) and Space ($O$) complexity analysis for every solution.
 * **Unit Testing:** Comprehensive `_test.go` files for robust verification.
 
-## 📂 Repository Structure
+## 📂 Repository Structure:
 The codebase is organized by algorithmic patterns to facilitate easy navigation and learning:
 
 ```text
