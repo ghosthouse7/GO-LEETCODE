@@ -1,17 +1,17 @@
 
-# 🚀 GO-LEETCODE
+# 🚀 GO-LEETCODE    
 
 ![Go Status](https://img.shields.io/badge/go-reporting-blue) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Repo Size](https://img.shields.io/github/repo-size/ghosthouse7/GO-LEETCODE) ![Last Commit](https://img.shields.io/github/last-commit/ghosthouse7/GO-LEETCODE)
 
 > "Talk is cheap. Show me the code." -Linus Torvalds
 
-## 📖 About This Repository
+## 📖 About This Repository:
 
 This repository serves as a centralized collection of my **LeetCode solutions** and **Data Structures & Algorithms (DSA)** implementations, written exclusively in **Golang**.
 
 The focus of this project is not just to solve problems, but to write **production-grade, idiomatic Go code**.
 
-## 🌟 Key Features
+## 🌟 Key Features:
 
 * **Idiomatic Go:** Utilizes extensive use of Pointers, Interfaces, and Structs.
 * **Concurrency Patterns:** Solutions involving Goroutines, Channels, and Mutexes where applicable.
