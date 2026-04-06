@@ -20,7 +20,6 @@ The focus of this project is not just to solve problems, but to write **producti
 
 ## 📂 Repository Structure:
 The codebase is organized by algorithmic patterns to facilitate easy navigation and learning:
-
 ```text
 📦 GO-LEETCODE
  ┣ 📂 arrays          # Two Pointers, Sliding Window
